@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import WhatsAppButton from '../components/WhatsAppButton';
 
 const furniture = [
@@ -17,6 +17,11 @@ const furniture = [
 ];
 
 function Furniture() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-zinc-50 py-20 px-6 lg:px-16">
       <div className="max-w-7xl mx-auto">

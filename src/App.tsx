@@ -313,11 +313,11 @@ function App() {
                       <Phone className="w-6 h-6" />
                       <div>
                         <h3 className="font-bold">Телефон</h3>
-                        <p>+7 (777) 123-4567</p>
+                        <p>+7 (708) 850-5142</p>
                       </div>
                     </div>
                     <a 
-                      href="https://wa.me/77771234567" 
+                      href="https://wa.me/77088505142" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="flex items-center gap-4 hover:text-green-600 transition-colors"
@@ -325,21 +325,21 @@ function App() {
                       <MessageCircle className="w-6 h-6" />
                       <div>
                         <h3 className="font-bold">WhatsApp</h3>
-                        <p>+7 (777) 123-4567</p>
+                        <p>+7 (708) 850-5142</p>
                       </div>
                     </a>
                     <div className="flex items-center gap-4">
                       <Mail className="w-6 h-6" />
                       <div>
                         <h3 className="font-bold">Email</h3>
-                        <p>info@loftmasters.kz</p>
+                        <p>info@masterloft.kz</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-4">
                       <MapPin className="w-6 h-6" />
                       <div>
                         <h3 className="font-bold">Адрес Мастерской</h3>
-                        <p>г. Алматы, ул. Рыскулова 232/3</p>
+                        <p>Алматинская область, с. Байсерке</p>
                       </div>
                     </div>
                   </div>
@@ -374,7 +374,7 @@ function App() {
                   <Warehouse size={24} />
                   <span className="text-xl font-bold">LOFT MASTERS</span>
                 </div>
-                <p className="text-zinc-400">© 2024 LOFT Masters. Все права защищены.</p>
+                <p className="text-zinc-400">© 2025 Masterloft. Все права защищены.</p>
               </div>
             </footer>
           </>
