@@ -15,6 +15,11 @@ import {
 import Shelves from './pages/Shelves';
 import Furniture from './pages/Furniture';
 import WhatsAppButton from './components/WhatsAppButton';
+import TradingEquipment from './pages/TradingEquipment';
+import ComputerDesks from './pages/ComputerDesks';
+import ClothesRacks from './pages/ClothesRacks';
+import Beds from './pages/Beds'
+import TVStands from './pages/TVStands';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -51,6 +56,11 @@ function App() {
       <Routes>
         <Route path="/shelves" element={<Shelves />} />
         <Route path="/furniture" element={<Furniture />} />
+        <Route path="/trading-equipment" element={<TradingEquipment />} />
+        <Route path="/computer-desks" element={<ComputerDesks />} />
+        <Route path="/clothes-racks" element={<ClothesRacks />} />
+        <Route path="/beds" element={<Beds />} />
+        <Route path="/tv-stands" element={<TVStands />} />
         <Route path="/" element={
           <>
             {/* Hero Section */}
@@ -145,6 +155,36 @@ function App() {
                     image: "https://resources.cdn-kaspi.kz/img/m/p/ha5/ha4/87183017934878.jpg?format=gallery-large",
                     description: "Столы, стулья и другая мебель на заказ",
                     link: "/furniture"
+                  },
+                  {
+                    title: "Торговое оборудование",
+                    image: "https://www.shopsart.ru/wp-content/uploads/2024/01/dizajn-interera-magazina-odezhdy-00571.jpg", // Замените на актуальное изображение
+                    description: "Мебель для торговых помещений и магазинов",
+                    link: "/trading-equipment"
+                  },
+                  {
+                    title: "Компьютерные столы",
+                    image: "https://lofttfol.ru/wp-content/uploads/2023/03/stol-v-stile-loft-ls68273.webp", // Замените на актуальное изображение
+                    description: "Столы для рабочих мест с функциональными решениями",
+                    link: "/computer-desks"
+                  },
+                  {
+                    title: "Кровати",
+                    image: "https://derevo163.ru/pic/katalog/loft_krovat/5.jpg", // Замените на актуальное изображение
+                    description: "Эстетичные и удобные кровати в стиле LOFT",
+                    link: "/beds"
+                  },
+                  {
+                    title: "ТВ тумбы",
+                    image: "https://greenfax.kz/wp-content/uploads/2024/10/shenker_stol_tumba_ready_copy.jpg", 
+                    description: "Тумбы для телевизоров с уникальным дизайном",
+                    link: "/tv-stands"
+                  },
+                  {
+                    title: "Вешалки",
+                    image: "https://design.pibig.info/uploads/posts/2023-03/1680230644_design-pibig-info-p-prikhozhaya-loft-iz-metalla-dizain-pintere-10.jpg", // Замените на актуальное изображение
+                    description: "Современные вешалки для одежды в индустриальном стиле",
+                    link: "/clothes-racks"
                   }
                 ].map((product, index) => (
                   <Link 
