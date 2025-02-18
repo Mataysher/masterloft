@@ -244,7 +244,7 @@ function App() {
                   {[
                     {
                       icon: <Star className="w-12 h-12 mb-4" />,
-                      image: "https://images.unsplash.com/photo-1617791160505-6f00504e3519?auto=format&fit=crop&q=80",
+                      image: "https://optim.tildacdn.com/tild3063-3437-4133-b865-363530643465/-/format/webp/000024468469.jpg",
                       title: "Качественные Материалы",
                       description: "Используем только сертифицированные материалы:",
                       details: [
@@ -256,7 +256,7 @@ function App() {
                     },
                     {
                       icon: <Table className="w-12 h-12 mb-4" />,
-                      image: "https://images.unsplash.com/photo-1593642532744-d377ab507dc8?auto=format&fit=crop&q=80",
+                      image: "https://img.freepik.com/free-photo/side-view-man-working-project_23-2149721887.jpg",
                       title: "Индивидуальный Дизайн",
                       description: "Создаем уникальные проекты под ваши требования:",
                       details: [
@@ -268,7 +268,7 @@ function App() {
                     },
                     {
                       icon: <Warehouse className="w-12 h-12 mb-4" />,
-                      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80",
+                      image: "https://www.peregorodka.ru/upload/medialibrary/03e/03ee6083013fc7831f5dd9c3b042d07d.JPG",
                       title: "Профессиональный Монтаж",
                       description: "Гарантируем качественную установку:",
                       details: [
