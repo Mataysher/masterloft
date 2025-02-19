@@ -2,16 +2,21 @@ import React, { useEffect } from 'react';
 import WhatsAppButton from '../components/WhatsAppButton';
 
 const clothesRacks = [
-  { id: 1, image: `${import.meta.env.BASE_URL}images/clothes1.jpeg` },
-  { id: 2, image: `${import.meta.env.BASE_URL}images/clothes2.jpeg` },
-  { id: 3, image: `${import.meta.env.BASE_URL}images/clothes3.jpeg` },
-  { id: 4, image: `${import.meta.env.BASE_URL}images/clothes4.jpeg` },
-  { id: 5, image: `${import.meta.env.BASE_URL}images/clothes5.jpeg` },
-  { id: 6, image: `${import.meta.env.BASE_URL}images/clothes6.jpeg` },
-  { id: 7, image: `${import.meta.env.BASE_URL}images/clothes7.jpeg` },
-  { id: 8, image: `${import.meta.env.BASE_URL}images/clothes8.jpeg` },
-  { id: 9, image: `${import.meta.env.BASE_URL}images/clothes9.jpeg` },
-  { id: 10, image: `${import.meta.env.BASE_URL}images/clothes10.jpeg` }
+  { id: 1, image: `${import.meta.env.BASE_URL}images/shelf1.jpeg` },
+  { id: 2, image: `${import.meta.env.BASE_URL}images/shelf2.jpeg` },
+  { id: 3, image: `${import.meta.env.BASE_URL}images/shelf3.jpeg` },
+  { id: 4, image: `${import.meta.env.BASE_URL}images/shelf4.jpeg` },
+  { id: 5, image: `${import.meta.env.BASE_URL}images/shelf5.jpeg` },
+  { id: 6, image: `${import.meta.env.BASE_URL}images/shelf6.jpeg` },
+  { id: 7, image: `${import.meta.env.BASE_URL}images/shelf7.jpeg` },
+  { id: 8, image: `${import.meta.env.BASE_URL}images/shelf8.jpeg` },
+  { id: 9, image: `${import.meta.env.BASE_URL}images/shelf9.jpeg` },
+  { id: 10, image: `${import.meta.env.BASE_URL}images/shelf10.jpeg` },
+  { id: 11, image: `${import.meta.env.BASE_URL}images/shelf11.jpeg` },
+  { id: 12, image: `${import.meta.env.BASE_URL}images/shelf12.jpeg` },
+  { id: 13, image: `${import.meta.env.BASE_URL}images/shelf13.jpeg` },
+  { id: 14, image: `${import.meta.env.BASE_URL}images/shelf14.jpeg` },
+  { id: 15, image: `${import.meta.env.BASE_URL}images/shelf15.jpeg` }
 ];
 
 function ClothesRacks() {

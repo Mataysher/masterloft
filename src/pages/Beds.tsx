@@ -11,7 +11,25 @@ const beds = [
   { id: 7, image: `${import.meta.env.BASE_URL}images/bed7.jpeg` },
   { id: 8, image: `${import.meta.env.BASE_URL}images/bed8.jpeg` },
   { id: 9, image: `${import.meta.env.BASE_URL}images/bed9.jpeg` },
-  { id: 10, image: `${import.meta.env.BASE_URL}images/bed10.jpeg` }
+  { id: 10, image: `${import.meta.env.BASE_URL}images/bed10.jpeg` },
+  { id: 11, image: `${import.meta.env.BASE_URL}images/bed11.jpeg` },
+  { id: 12, image: `${import.meta.env.BASE_URL}images/bed12.jpeg` },
+  { id: 13, image: `${import.meta.env.BASE_URL}images/bed13.jpeg` },
+  { id: 14, image: `${import.meta.env.BASE_URL}images/bed14.jpeg` },
+  { id: 15, image: `${import.meta.env.BASE_URL}images/bed15.jpeg` },
+  { id: 16, image: `${import.meta.env.BASE_URL}images/bed16.jpeg` },
+  { id: 17, image: `${import.meta.env.BASE_URL}images/bed17.jpeg` },
+  { id: 18, image: `${import.meta.env.BASE_URL}images/bed18.jpeg` },
+  { id: 19, image: `${import.meta.env.BASE_URL}images/bed19.jpeg` },
+  { id: 20, image: `${import.meta.env.BASE_URL}images/bed20.jpeg` },
+  { id: 21, image: `${import.meta.env.BASE_URL}images/bed21.jpeg` },
+  { id: 22, image: `${import.meta.env.BASE_URL}images/bed22.jpeg` },
+  { id: 23, image: `${import.meta.env.BASE_URL}images/bed23.jpeg` },
+  { id: 24, image: `${import.meta.env.BASE_URL}images/bed24.jpeg` },
+  { id: 25, image: `${import.meta.env.BASE_URL}images/bed25.jpeg` },
+  { id: 26, image: `${import.meta.env.BASE_URL}images/bed26.jpeg` },
+  { id: 27, image: `${import.meta.env.BASE_URL}images/bed27.jpeg` },
+  { id: 28, image: `${import.meta.env.BASE_URL}images/bed28.jpeg` }
 ];
 
 function Beds() {
